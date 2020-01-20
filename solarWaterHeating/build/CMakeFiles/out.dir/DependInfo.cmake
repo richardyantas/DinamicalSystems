@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/richard/Documents/DinamicalSystems/sthocasticSolarWaterHeating/main.cpp" "/home/richard/Documents/DinamicalSystems/sthocasticSolarWaterHeating/build/CMakeFiles/out.dir/main.cpp.o"
+  "/home/richard/Documents/DinamicalSystems/solarWaterHeating/main.cpp" "/home/richard/Documents/DinamicalSystems/solarWaterHeating/build/CMakeFiles/out.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -13,7 +13,7 @@ namespace plt = matplotlibcpp;
 
 void plotBox(IntervalVector Box, string color);
 
-
+//(sign(x)+1)2
 
 vector< vector<Interval> > run(vector<Function> modes, IntervalVector W, double period)
 {
@@ -105,7 +105,8 @@ int main()
     Function m2 = Function(x, Return( -0.005*x[0] + Interval(0.001), 0.001*sign(0.001) ));
     Function m3 = Function(x, Return( +0.005*x[0], 0.001*sign(-0.001) ));
     Function m4 = Function(x, Return( -0.005*x[0], 0.001*sign(-0.001) ));
-    Function m5 = Function(x, Return( +0.005*x[0]+0.001*sign(  Interval(0.2) + x[0]), 0.001*sign(0.001) ));
+    //Function m5 = Function(x, Return( +0.005*x[0]+(sign(x[0]-1)+1)/2, 0.001*sign(0.001) ));
+    Function m5 = Function(x, Return( sign( int(x[0]) ), 0.001*sign(0.001) ));
     Function m6 = Function(x, Return( -0.005*x[0], 0.001*sign(0.001) ));
     
 

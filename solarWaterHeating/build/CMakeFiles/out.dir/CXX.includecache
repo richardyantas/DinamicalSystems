@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/richard/Documents/DinamicalSystems/sthocasticSolarWaterHeating/Matplotlibcpp.h
+/home/richard/Documents/DinamicalSystems/solarWaterHeating/Matplotlibcpp.h
 vector
 -
 map
@@ -30,7 +30,7 @@ Python.h
 numpy/arrayobject.h
 -
 
-/home/richard/Documents/DinamicalSystems/sthocasticSolarWaterHeating/main.cpp
+/home/richard/Documents/DinamicalSystems/solarWaterHeating/main.cpp
 ibex.h
 -
 vector
@@ -44,7 +44,7 @@ sstream
 cmath
 -
 Matplotlibcpp.h
-/home/richard/Documents/DinamicalSystems/sthocasticSolarWaterHeating/Matplotlibcpp.h
+/home/richard/Documents/DinamicalSystems/solarWaterHeating/Matplotlibcpp.h
 
 /usr/include/python2.7/Python.h
 patchlevel.h
