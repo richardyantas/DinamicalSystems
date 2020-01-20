@@ -2,16 +2,11 @@
 ## Compiling and Running
 
 
-``` c++
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
+``` cmd
 mkdir build
 cd build
 cmake ..
 make && ./out
+```
+
 
