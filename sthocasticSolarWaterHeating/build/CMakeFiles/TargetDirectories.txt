@@ -1,0 +1,3 @@
+/home/richard/Documents/DinamicalSystems/sthocasticSolarWaterHeating/build/CMakeFiles/rebuild_cache.dir
+/home/richard/Documents/DinamicalSystems/sthocasticSolarWaterHeating/build/CMakeFiles/out.dir
+/home/richard/Documents/DinamicalSystems/sthocasticSolarWaterHeating/build/CMakeFiles/edit_cache.dir
