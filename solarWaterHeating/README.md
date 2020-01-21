@@ -29,7 +29,7 @@ Results:
  ![temperature](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/example1_t.png)
  ![volume](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/example1_v.png)
 
- <img src="https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/example1_v.png" width="400" height="400">
+ <img src="https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/x0x1.png" width="400" height="400">
  
  
 #### Example 2.-
