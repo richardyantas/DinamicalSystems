@@ -58,5 +58,60 @@ However mantaining the same initial condition and period, when is introduced val
 ```
 Results:
 
+
+***********************************************************************
+IBEX has crashed because the following feature is not implemented yet:
+diff with chi
+Please, submit a new feature request.
+***********************************************************************
+
+#### Example 3.-
+
+
+This is the main model I want to run but I am having many problems.
+
+
+
+``` c++
+    Function m1 = Function(x, Return( -2.8811059759131854e-6*(x[0]-Te)/x[1] + 
+    -9.34673995175876e-05*(x[0]-Ti)/x[1] - sign(0.1 - x[1])*9.34673995175876e-05*(x[0]-Ti)/x[1]
+    + 0.7*0.7*8.403225763080125e-07*I/x[1] + 0.0048018432931886426/x[1]
+    ,0.1*( Interval(0.1) - x[1]) ) );
+
+    Function m2 = Function(x, Return( -2.8811059759131854e-6*(x[0]-Te)/x[1] + 
+    -9.34673995175876e-05*(x[0]-Ti)/x[1] - sign(0.1 - x[1])*9.34673995175876e-05*(x[0]-Ti)/x[1]
+    + 0.7*0.7*8.403225763080125e-07*I/x[1]
+    ,0.1*( Interval(0.1) - x[1]) ) );
+
+    Function m3 = Function(x, Return( -2.8811059759131854e-6*(x[0]-Te)/x[1] + 
+    -9.34673995175876e-05*(x[0]-Ti)/x[1] - sign(0.2 - x[1])*9.34673995175876e-05*(x[0]-Ti)/x[1]
+    + 0.7*0.7*8.403225763080125e-07*I/x[1] + 0.0048018432931886426/x[1]
+    ,0.1*( Interval(0.2) - x[1]) ) );
+
+    Function m4 = Function(x, Return( -2.8811059759131854e-6*(x[0]-Te)/x[1] + 
+    -9.34673995175876e-05*(x[0]-Ti)/x[1] - sign(0.2 - x[1])*9.34673995175876e-05*(x[0]-Ti)/x[1]
+    + 0.7*0.7*8.403225763080125e-07*I/x[1] 
+    ,0.1*( Interval(0.2) - x[1]) ) );
+
+    Function m5 = Function(x, Return( -2.8811059759131854e-6*(x[0]-Te)/x[1] + 
+    -9.34673995175876e-05*(x[0]-Ti)/x[1] - sign(0.3 - x[1])*9.34673995175876e-05*(x[0]-Ti)/x[1]
+    + 0.7*0.7*8.403225763080125e-07*I/x[1] + 0.0048018432931886426/x[1]
+    ,0.1*( Interval(0.3) - x[1]) ) );
+
+    Function m6 = Function(x, Return( -2.8811059759131854e-6*(x[0]-Te)/x[1] + 
+    -9.34673995175876e-05*(x[0]-Ti)/x[1] - sign(0.3 - x[1])*9.34673995175876e-05*(x[0]-Ti)/x[1]
+    + 0.7*0.7*8.403225763080125e-07*I/x[1] 
+    ,0.1*( Interval(0.3) - x[1]) ) );
+
+```
+
+
+
+
+
+
+
+
+
 Thanks for read!
  ![Minion](https://octodex.github.com/images/minion.png)
