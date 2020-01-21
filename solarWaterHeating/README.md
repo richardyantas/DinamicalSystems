@@ -40,20 +40,20 @@ Results:
  ![state](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/x0x1.png)
 
  In the pictures we can see the upper values (RED) and de lower values(BLACK), about x[0] and x[1] respectively, it start with an interval with a distance 5 of separation and it the algorithm has not problem to solve it, it works perfectly.
- 
-#### Example 2.-
 
-However mantaining the same initial condition and period, when is introduced values x[0] as an input in the sign function like `sign(x[0]-1)` it crash. 
+
+`problem`
+ However mantaining the same initial condition and period, when is introduced values x[0] as an input in the sign function  like `sign(x[0]-1)` it crash. 
 
 
 ``` c++
     cout << 5*sign( Interval(0.3) - Interval(0.5) ) << endl;
-    Function m1 = Function(x, Return( 0.005*x[0], 0.001*sign(0.001) ));
-    Function m2 = Function(x, Return( -0.005*x[0] + Interval(0.001), 0.001*sign(0.001) ));
-    Function m3 = Function(x, Return( +0.005*x[0], 0.001*sign(-0.001) ));
-    Function m4 = Function(x, Return( -0.005*x[0], 0.001*sign(-0.001) ));
+    Function m1 = Function(x, Return( +0.005*x[0]+(sign(x[0]-1)+1)/2, 0.001*sign(0.001) ));
+    Function m2 = Function(x, Return( -0.005*x[0]+(sign(x[0]-1)+1)/2, 0.001*sign(0.001) ));
+    Function m3 = Function(x, Return( +0.005*x[0]+(sign(x[0]-1)+1)/2, 0.001*sign(-0.001) ));
+    Function m4 = Function(x, Return( -0.005*x[0]+(sign(x[0]-1)+1)/2, 0.001*sign(-0.001) ));
     Function m5 = Function(x, Return( +0.005*x[0]+(sign(x[0]-1)+1)/2, 0.001*sign(0.001) ));
-    Function m6 = Function(x, Return( -0.005*x[0], 0.001*sign(0.001) ));
+    Function m6 = Function(x, Return( -0.005*x[0]+(sign(x[0]-1)+1)/2, 0.001*sign(0.001) ));
 
 ```
 Results:
@@ -64,6 +64,22 @@ IBEX has crashed because the following feature is not implemented yet:
 diff with chi
 Please, submit a new feature request.
 ***********************************************************************
+
+ 
+#### Example 2.-
+
+
+When I try to run equation with this form x[0]/x[1].
+
+``` c++
+    Function m1 = Function(x, Return( +0.005*x[0]/x[1], 0.001 ));
+    Function m2 = Function(x, Return( -0.005*x[0]/x[1], 0.001 ));
+    Function m3 = Function(x, Return( +0.005*x[0]/x[1], 0.001 ));
+    Function m4 = Function(x, Return( -0.005*x[0]/x[1], 0.001 ));
+    Function m5 = Function(x, Return( +0.005*x[0]/x[1], 0.001 ));
+    Function m6 = Function(x, Return( -0.005*x[0]/x[1], 0.001 ));
+```
+
 
 #### Example 3.-
 
