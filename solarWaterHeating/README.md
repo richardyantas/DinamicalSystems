@@ -26,8 +26,8 @@ I have verified the correct functionality of `ivp_ode` for modes(differential eq
 ```
 Results:
 
- ![temperature](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/example1_t.png)
- ![volume](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/example1_v.png)
+ ![temperature](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/example1_t.png){ width=50% height=50% }
+ ![volume](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/example1_v.png){ width=50% height=50% }
 
 
 #### Example 2.-
