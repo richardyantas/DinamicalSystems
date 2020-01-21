@@ -17,9 +17,9 @@ I have verified the correct functionality of `ivp_ode` for modes(differential eq
 
 
 ``` c++
-    IntervalVector x0(2);
-    x0[0]= Interval(40.0,45.1);
-    x0[1]= Interval(0.1,0.11);
+    IntervalVector x_initial(2);
+    x_initial[0]= Interval(40.0,45.1);
+    x_initial[1]= Interval(0.1,0.11);
     
     double period = 1*60;
 
@@ -39,7 +39,7 @@ Results:
 
  ![state](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/x0x1.png)
 
- In the pictures we can see the upper values (RED) and de lower values(BLACK), about x[0], it start with an interval with a distance 5 of separation and it the algorithm has not problem to solve it, it works perfectly.
+ In the pictures we can see the upper values (RED) and de lower values(BLACK), about x[0] and x[1] respectively, it start with an interval with a distance 5 of separation and it the algorithm has not problem to solve it, it works perfectly.
  
 #### Example 2.-
 
