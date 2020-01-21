@@ -147,7 +147,7 @@ int main()
     plt::xlim( 0.0, 15*60.0);
     plt::ylim( 0.0, 70.0);  
     plt::xlabel("time");
-    plt::ylabel("Temp");
+    plt::ylabel("x[0]");
     plt::grid(true);
 
 
@@ -157,7 +157,7 @@ int main()
     plt::xlim( 0.0, 15*60.0);
     plt::ylim( 0.0, 0.4);  
     plt::xlabel("time");
-    plt::ylabel("Volume");
+    plt::ylabel("x[1]");
     plt::grid(true);
     plt::show();
 
