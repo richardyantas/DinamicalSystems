@@ -39,10 +39,11 @@ Results:
 
  ![state](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/x0x1.png)
 
+ In the pictures we can see the upper values (RED) and de lower values(BLACK), about x[0], it start with an interval with a distance 5 of separation and it the algorithm has not problem to solve it, it works perfectly.
  
 #### Example 2.-
 
-However when I introduce values like sign(x[0]-1) it crash. That term is something I need.
+However mantaining the same initial condition and period, when is introduced values x[0] as an input in the sign function like `sign(x[0]-1)` it crash. 
 
 
 ``` c++
