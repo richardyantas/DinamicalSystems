@@ -26,6 +26,8 @@ I have verified the correct functionality of `ivp_ode` for modes(differential eq
 ```
 Results:
 
+ ![temperature](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/example1_t.png)
+ ![volume](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/example1_v.png)
 
 
 #### Example 2.-
@@ -43,10 +45,7 @@ However when I introduce values like sign(x[0]-1) it crash. That term is somethi
     Function m6 = Function(x, Return( -0.005*x[0], 0.001*sign(0.001) ));
 
 ```
-
-Results.
- ![temperature](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/example1_t.png)
- ![volume](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/example1_v.png)
+Results:
 
 Thanks for read!
  ![Minion](https://octodex.github.com/images/minion.png)
