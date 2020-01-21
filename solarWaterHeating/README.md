@@ -45,6 +45,8 @@ However when I introduce values like sign(x[0]-1) it crash. That term is somethi
 ```
 
 Results.
+ ![temperature](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/example1_t.png)
+ ![volume](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/example1_v.png)
 
-
+Thanks for read!
  ![Minion](https://octodex.github.com/images/minion.png)
