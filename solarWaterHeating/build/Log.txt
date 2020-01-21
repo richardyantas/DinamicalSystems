@@ -1,8 +1,8 @@
 Solution at t=60.000000 : 
-([53.9944, 54.1293] ; [0.16, 0.17])
-Diameter : (0.134986 ; 0.01)
+([53.9944, 60.8786] ; [0.16, 0.17])
+Diameter : (6.88428 ; 0.01)
 Rejected picard :0
 Accepted picard :67
 Step min :0.6
 Step max :0.9
-Truncature error max :8.19627e-07
+Truncature error max :9.21825e-07

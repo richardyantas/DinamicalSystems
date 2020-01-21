@@ -52,7 +52,7 @@ int main()
 
 
     IntervalVector W(2);
-    W[0]= Interval(40.0,40.1);
+    W[0]= Interval(40.0,45.1);
     W[1]= Interval(0.1,0.11);
 
     const int n = 2;
