@@ -14,6 +14,17 @@ make && ./out
 
 I have verified the correct functionality of `ivp_ode` for modes(differential equation with `sign` function). 
 
+
+
+``` c++
+    IntervalVector x0(2);
+    x0[0]= Interval(40.0,45.1);
+    x0[1]= Interval(0.1,0.11);
+    
+    double period = 1*60;
+
+```
+
 ``` c++
     cout << 5*sign( Interval(0.3) - Interval(0.5) ) << endl;
     Function m1 = Function(x, Return( 0.005*x[0],0.001*sign(0.001) ));
