@@ -29,6 +29,7 @@ Results:
  ![temperature](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/example1_t.png = 50x50)
  ![volume](https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/example1_v.png = 50x50)
 
+ <img src="https://github.com/richardyantas/DinamicalSystems/blob/master/solarWaterHeating/img/example1_v.png" width="100" height="100">
 #### Example 2.-
 
 However when I introduce values like sign(x[0]-1) it crash. That term is something I need.
